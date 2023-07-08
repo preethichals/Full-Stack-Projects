@@ -1,1 +1,1 @@
-# Full-Stack-Projects
+# MERN-ecommerce app
