@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Corinthia&display=swap');
+
+body, html {
+  height: 100%;
+}
+nav  :link, :visited{
+  color:rgb(64, 61, 62);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-left: 1px solid #dad3d3;
+  
+}
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  color:white;
+  border-radius: 1px;
+  transition: ease-in;
+}
+/* logo */
+
+.logo {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.bglogo {
+  background-color:#faf4e6 ;
+}
+.bgrooms {
+  background-color:#fafafa ;
+}
+
+
+/* blog-text */
+.corinthia {
+  font-family: 'Corinthia', cursive;
+  font-size:5rem
+}
+
+/* letter spacing */
+.letter-space1 {
+  letter-spacing: 0.1rem;
+}
+.letter-space2 {
+  letter-spacing: 0.2rem;
+}
+.letter-space3 {
+  letter-spacing: 2.2rem;
+}
+
+/* text-justify */
+.text-justify {
+  text-align: justify;
+}
+
+/* dashed border */
+.dashed-border {
+
+  border-bottom:4px dashed #bdbaba;
+}
+
+/* box shadow */
+
+.box-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* first letter */
+.text-capital:first-letter {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  color: #083088;
+}
+/* heading -01 */
+ .color1{
+  color: #0a8d8f;
+ }
+ .color2{
+  color: #083088;
+ }
+ .color3{
+  color: #252422;
+ }
+ .color4{
+  color:#1f7b6d
+ }
+ .color5{
+  color:#0188ca
+ }
+ .bg-button{
+
+  background-color: #0188ca;
+ }
+
+.parallax {
+
+  background-image: url('./Images/ImageOne.jpg');
+
+  min-height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+}
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position:relative;
+  top:0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: rgba(0,0,0,.2);
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+.main-img {
+  position: relative;
+  height:60vh;
+  
+}
+.main-content {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 60vh;
+  width:100%;
+  padding: 1rem;
+}
+.main-text{
+  background-color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  color: #156483;
+  padding:1rem;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+/* navbar bg */
+
+.bg-nav {
+  background-image: url("./Images/bg-nav.png");
+
+  min-height: 8vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
